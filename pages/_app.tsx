@@ -6,6 +6,7 @@ import { getCookie, setCookie } from 'cookies-next';
 
 import { ColorScheme, MantineProvider, ColorSchemeProvider } from "@mantine/core";
 
+import './style.css'
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
